@@ -1,0 +1,23 @@
+{
+    "name": "Kanpur AC Repair",
+    "version": "1.0.0",
+    "description": "AC and Fridge Repair Services Website",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve .",
+        "deploy": "netlify deploy"
+    },
+    "keywords": [
+        "AC Repair",
+        "Fridge Repair",
+        "Home Services",
+        "Kanpur"
+    ],
+    "author": "Your Company Name",
+    "license": "ISC",
+    "deployment": {
+        "platform": "netlify",
+        "buildCommand": "none",
+        "publishDir": "."
+    }
+}
